@@ -1,41 +1,75 @@
 export const projects = [
   {
     id: "01",
-    title: "Brand Archive",
-    category: "Visual Direction",
+    slug: "pun-market",
+    title: "有梗菜市場",
+    category: "蔬果銷售平台",
     description:
-      "A quiet digital archive that turns fragmented campaign assets into a cohesive editorial browsing experience.",
+      "結合幽默諧音與生活感的蔬果銷售平台，讓日常採買多一點趣味與互動。",
     details:
-      "Designed a modular archive system for campaign photography, launch copy, and seasonal brand material. The interface keeps assets easy to scan while preserving an editorial mood.",
-    scope: ["Art direction", "Information architecture", "Responsive UI"]
+      "本專案旨在打造一個結合幽默諧音與生活感的蔬果銷售平台。透過趣味的諧音命名，如「禁止蕉綠」、「蒜你狠」，提升使用者的瀏覽興趣與互動體驗。",
+    scope: ["電商平台", "趣味命名", "互動體驗"],
+    overview:
+      "有梗菜市場將傳統市場的親切感轉化為數位購物體驗，讓蔬果商品不只是陳列與結帳，而是透過命名、文案與分類產生記憶點。網站以輕鬆幽默的語氣降低購物距離，讓使用者在瀏覽商品時自然產生探索興趣。",
+    challenge:
+      "蔬果銷售平台容易落入單純比價與功能導向，商品之間缺乏差異化。此專案的核心挑戰是讓日常蔬果具備品牌個性，同時維持購物流程的清楚與效率。",
+    solution:
+      "平台以諧音商品名稱作為主要特色，搭配清楚的商品卡、分類導覽與互動式瀏覽節奏，讓使用者能快速理解商品，也能在瀏覽過程中感受到趣味。",
+    features: ["諧音商品命名", "蔬果分類瀏覽", "生活感商品文案", "輕量購物流程"],
+    tech: ["HTML", "CSS", "jQuery"],
+    role: "企劃、介面設計、前端實作"
   },
   {
     id: "02",
-    title: "Studio Commerce",
-    category: "Web Design",
+    slug: "second-light",
+    title: "二拾光",
+    category: "二手交易平台",
     description:
-      "A restrained storefront focused on tactile spacing, selective typography, and calm conversion flows.",
+      "以「讓舊物再度閃耀」為理念，打造具評價與信任機制的二手交易環境。",
     details:
-      "Built a commerce direction for a small studio catalog, balancing product detail, visual rhythm, and a checkout path that stays quiet and direct.",
-    scope: ["Web design", "Product pages", "Design system"]
+      "二拾光以「讓舊物再度閃耀」為理念，提供具備評價與信任機制的二手交易環境，協助使用者安心買賣舊物，並落實循環經濟。",
+    scope: ["二手交易", "信任機制", "循環經濟"],
+    overview:
+      "二拾光關注舊物再流通的價值，讓物品不因閒置而失去意義。平台透過乾淨的商品資訊、評價制度與交易信任設計，協助買賣雙方建立安心的二手交易關係。",
+    challenge:
+      "二手交易最重要的門檻是信任。使用者需要判斷商品狀態、賣家可靠度與交易安全性，因此平台必須在資訊呈現與互動流程中降低不確定感。",
+    solution:
+      "介面以商品狀態、賣家評價與交易紀錄作為核心資訊，讓使用者能快速判斷是否值得進一步溝通。整體視覺維持溫和、清楚的調性，呼應舊物重新被看見的理念。",
+    features: ["商品狀態標示", "使用者評價機制", "交易信任資訊", "循環經濟敘事"],
+    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    role: "產品概念、UX 流程、介面設計"
   },
   {
     id: "03",
-    title: "Motion Identity",
-    category: "Creative Development",
+    slug: "care-cloud",
+    title: "陪伴雲",
+    category: "智慧照護平台",
     description:
-      "A motion-led portfolio system balancing cinematic transitions with lightweight frontend performance.",
+      "設定於 2050 年高齡化社會情境，以 AI 病患分級與遠端診療為核心的智慧照護平台。",
     details:
-      "Created a presentation system where motion supports wayfinding and pacing without slowing down the browsing experience.",
-    scope: ["Creative development", "Motion language", "Frontend prototype"]
+      "陪伴雲設定於 2050 年的高齡化社會情境，是一個以 AI 病患分級與遠端診療為核心的智慧照護平台。透過整合穿戴式裝置偵測，系統能主動判斷病患身心狀況、媒合合適醫療資源，並提供社交陪伴功能。目標是解決長輩的孤獨感、減輕家屬照護負擔，並提升醫師的診療效率。",
+    scope: ["AI 分級", "遠端診療", "高齡照護"],
+    overview:
+      "陪伴雲以 2050 年高齡化社會為背景，思考醫療資源、家庭照護與長者陪伴之間的關係。平台結合 AI 病患分級、遠端診療與穿戴式裝置偵測，讓照護從被動回報轉為主動判斷。",
+    challenge:
+      "高齡照護同時牽涉長者身心狀態、家屬負擔與醫療資源分配。如何在資訊複雜的情境中提供清楚判斷，並兼顧情感陪伴，是本專案的主要挑戰。",
+    solution:
+      "系統透過穿戴式裝置收集狀態訊號，使用 AI 判斷病患分級並媒合合適醫療資源。除了遠端診療，平台也加入社交陪伴功能，回應長者孤獨感與日常關懷需求。",
+    features: ["穿戴式裝置偵測", "AI 病患分級", "遠端診療媒合", "社交陪伴功能"],
+    tech: ["Figma"],
+    role: "情境設定、服務設計、智慧照護介面"
   }
 ];
 
 export const contacts = [
-  { label: "Email", value: "hello@portfolio.dev", href: "mailto:hello@portfolio.dev" },
-  { label: "Instagram", value: "@portfolio.studio", href: "https://instagram.com" },
-  { label: "Behance", value: "behance.net/portfolio", href: "https://behance.net" }
+  { label: "Email", value: "liao940105@gmail.com", href: "mailto:liao940105@gmail.com" },
+  { label: "Phone", value: "0905784107", href: "tel:0905784107" }
 ];
+
+export const education = {
+  school: "元智大學",
+  department: "資訊傳播學系 科技組"
+};
 
 export const services = [
   "品牌形象網站",

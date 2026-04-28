@@ -3,7 +3,7 @@ import SiteShell from "../components/SiteShell";
 import { contacts } from "../lib/content";
 
 export const metadata = {
-  title: "Contact | Lumen Portfolio"
+  title: "Contact | LYP"
 };
 
 export default function ContactPage() {

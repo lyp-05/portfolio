@@ -14,7 +14,7 @@ export default function SiteShell({ children }) {
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 py-6 sm:px-10 lg:px-16">
           <header className="flex flex-wrap items-center justify-between gap-5 border-b border-stone-800 pb-5">
             <Link href="/" className="font-[family-name:var(--font-display)] text-sm uppercase tracking-[0.35em]">
-              Lumen Portfolio
+              LYP
             </Link>
             <nav className="flex gap-4 text-sm text-stone-300 sm:gap-8">
               {navItems.map((item) => (

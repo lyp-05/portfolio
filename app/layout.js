@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Minimal portfolio website built with Next.js and Tailwind CSS."
+  title: "LYP",
+  description: "Minimal portfolio website for LYP, built with Next.js and Tailwind CSS."
 };
 
 export default function RootLayout({ children }) {

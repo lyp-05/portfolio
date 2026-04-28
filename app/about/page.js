@@ -1,9 +1,9 @@
 import PageIntro from "../components/PageIntro";
 import SiteShell from "../components/SiteShell";
-import { services } from "../lib/content";
+import { education, services } from "../lib/content";
 
 export const metadata = {
-  title: "About | Lumen Portfolio"
+  title: "About | LYP"
 };
 
 export default function AboutPage() {
@@ -11,17 +11,26 @@ export default function AboutPage() {
     <SiteShell>
       <PageIntro
         eyebrow="About"
-        title="清晰、簡潔，讓內容本身成為視覺主角。"
-        body="擅長將品牌概念轉化為可被記住的介面，透過留白、文字層級與節奏建立安靜但有辨識度的數位體驗。"
+        title="我是廖盈芃，專注於網頁設計、前端實作與互動體驗。"
+        body="目前就讀元智大學資訊傳播學系科技組，擅長從生活情境與使用者需求出發，將產品概念整理成清楚、易用且具有敘事感的數位介面。"
       />
 
       <section className="grid gap-12 py-16 lg:grid-cols-[0.8fr_1.2fr] lg:py-20">
         <div className="space-y-4 text-sm leading-7 text-stone-300">
           <p>
-            服務內容包含品牌形象網站、個人作品集、互動展示頁與基礎前端開發。偏好乾淨版面、
-            精準字距與不過度裝飾的動態表現。
+            我的作品涵蓋蔬果銷售平台、二手交易平台與智慧照護服務，從趣味命名、信任機制到
+            AI 照護情境，嘗試用不同角度回應真實生活中的需求。
           </p>
-          <p>Base in Taipei, available for selected freelance collaborations and ongoing creative partnerships.</p>
+          <p>
+            在設計與實作過程中，我重視資訊架構、操作流程與視覺一致性，希望使用者能直覺理解內容，
+            也能感受到作品背後的概念。熟悉 HTML、CSS、JavaScript、jQuery、PHP、MySQL，並能使用
+            Figma 進行介面規劃與原型設計。
+          </p>
+          <div className="border-t border-stone-800 pt-5">
+            <p className="text-xs uppercase tracking-[0.24em] text-stone-500">Education</p>
+            <p className="mt-3 text-stone-200">{education.school}</p>
+            <p>{education.department}</p>
+          </div>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
