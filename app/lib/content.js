@@ -77,3 +77,34 @@ export const services = [
   "互動展示頁",
   "基礎前端開發"
 ];
+
+export const highlights = [
+  {
+    title: "資訊傳播學系排球隊隊長",
+    meta: "資訊傳播學系系排",
+    date: "2024/09 - 2025/06",
+    description:
+      "負責隊伍管理與訓練協調，帶領團隊參與比賽，累積溝通協作與領導經驗。"
+  },
+  {
+    title: "書卷獎・系排第二名",
+    meta: "Academic Award / Team Competition",
+    date: "2025/09",
+    description:
+      "學業成績名列系上前段，獲頒書卷獎肯定；同時參與系排競賽並獲得第二名。"
+  },
+  {
+    title: "暑期海外交流",
+    meta: "加拿大卡加利大學",
+    date: "2025/07",
+    description:
+      "參與暑期海外遊學，拓展國際視野，並提升英語溝通與跨文化適應能力。"
+  },
+  {
+    title: "育秀盃創意競賽｜工業設計類",
+    meta: "使用者介面設計作品《陪伴雲》",
+    date: "入圍複賽",
+    description:
+      "以智慧醫療 App《陪伴雲》參賽，提出 AI 病患分級與遠端診療概念，作品入圍複賽。"
+  }
+];

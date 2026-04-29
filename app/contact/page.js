@@ -15,10 +15,10 @@ export default function ContactPage() {
         body="For selected freelance collaborations, identity sites, portfolio systems, and focused creative development."
       />
 
-      <section className="grid gap-12 py-16 lg:grid-cols-[1fr_0.9fr] lg:py-20">
-        <div className="rounded-2xl border border-stone-800 bg-white/[0.03] p-7">
-          <p className="text-sm uppercase tracking-[0.24em] text-stone-400">Availability</p>
-          <p className="mt-5 max-w-lg font-[family-name:var(--font-display)] text-3xl leading-tight">
+      <section className="grid gap-14 py-20 lg:grid-cols-[1fr_0.9fr] lg:py-28">
+        <div className="border border-stone-800/80 bg-white/[0.035] p-8 shadow-2xl shadow-black/20 backdrop-blur">
+          <p className="text-xs uppercase tracking-[0.32em] text-stone-500">Availability</p>
+          <p className="mt-6 max-w-lg font-[family-name:var(--font-display)] text-4xl leading-tight">
             Open to compact projects with a clear visual direction and thoughtful pacing.
           </p>
         </div>
@@ -28,12 +28,12 @@ export default function ContactPage() {
             <a
               key={contact.label}
               href={contact.href}
-              className="flex items-center justify-between gap-6 border-b border-stone-800 py-4 text-sm transition hover:border-stone-500 hover:text-white"
+              className="flex items-center justify-between gap-6 border-b border-stone-800/80 py-6 text-sm transition hover:-translate-y-0.5 hover:border-stone-500 hover:text-white"
               target={contact.href.startsWith("http") ? "_blank" : undefined}
               rel={contact.href.startsWith("http") ? "noreferrer" : undefined}
             >
-              <span className="uppercase tracking-[0.24em] text-stone-400">{contact.label}</span>
-              <span className="text-right">{contact.value}</span>
+              <span className="uppercase tracking-[0.28em] text-stone-500">{contact.label}</span>
+              <span className="text-right text-base">{contact.value}</span>
             </a>
           ))}
         </div>
